@@ -1,0 +1,25 @@
+<!-- SHOP SECTION -->
+    <section class="containerNewArrivals">
+    <div>
+        <h1>NEW ARRIVALS</h1>
+    </div>
+    <div class="containerProductos">
+
+        <div>
+            <img src="../Proyecto_final_coder/assets/imagenes/main1.jpg" alt="blackJacket">
+            <a href="#" class="botonPro">SHOP HERE</a>
+        </div>
+        <div>
+            <img src="../Proyecto_final_coder/assets/imagenes/main 2.jpg" alt="blackPantsAndJacket">
+            <a href="#" class="botonPro">SHOP HERE</a>
+        </div>
+        <div>
+            <img src="../Proyecto_final_coder/assets/imagenes/main 3.jpg" alt="blackCoat">
+            <a href="#" class="botonPro">SHOP HERE</a>
+        </div>
+        <div>
+            <img src="../Proyecto_final_coder/assets/imagenes/main 4.jpg" alt="blackHoodie">
+            <a href="#" class="botonPro">SHOP HERE</a>
+        </div>
+    </div>
+</section>

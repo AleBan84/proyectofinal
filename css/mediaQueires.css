@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    
+    /* HEADER */
+    .navbar {
+        position: relative;
+    }
+    .navbar .shopping {
+        display: none;
+    }
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8 / 9;
+        font: 2em;
+        cursor: pointer;
+    }
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 57vh;
+        display: grid;
+        align-items: center;
+        background-color: black;
+        opacity: 90%;
+        margin-top: 30em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+    .navbar .menu-toggle {
+        transform: translateX(70%);
+    }
+    .navbar .menu li:hover {
+        transform: translate(-2%, 2%);
+        font-weight: bold;
+    }
+    /* FIN HEADER */
+
+    /* MAIN */
+    .hero {
+        background-size: cover;
+        background-position-x: right;
+        height: 81vh;
+    }
+   
+    .hero h3 {
+        font-size: 3.5em;
+    }
+    .hero h1 {
+        font-size: 1.5em;
+    }
+    .hero .btn {
+        font-size: 1em;
+        padding: 7px 20px;
+    }
+    /* FIN MAIN  */
+
+    /* FOOTER */
+    footer .followme {
+        display: none;
+    }
+    .socialMedia .fab {
+        text-align: center;
+        font-size: 1em;
+    }
+    footer .shopNowicon .fas {
+        font-size: 1.5em;
+        margin-right: 15px;
+    }
+    
+    /* FIN FOOTER */
+    
+}
